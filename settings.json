@@ -1,0 +1,117 @@
+{
+	"*": {
+		"atom-beautify": {
+			"css": {
+				"beautify_on_save": true
+			},
+			"jade": {
+				"beautify_on_save": true
+			},
+			"js": {},
+			"json": {},
+			"markdown": {
+				"beautify_on_save": true,
+				"default_beautifier": "Tidy Markdown"
+			},
+			"nunjucks": {},
+			"php": {
+				"beautify_on_save": true
+			},
+			"typescript": {
+				"beautify_on_save": true
+			},
+			"xml": {
+				"beautify_on_save": true
+			},
+			"yaml": {
+				"beautify_on_save": true
+			}
+		},
+		"atom-minify": {
+			"autoHideNotifications": "Info, Success, Error",
+			"autoHidePanel": "Success, Error",
+			"cssMinifier": "clean-css",
+			"minifyOnSave": true,
+			"showSavingInfo": false
+		},
+		"atom-uglify-es": {
+			"onSave": true,
+			"uglifyToFile": true
+		},
+		"core": {
+			"closeDeletedFileTabs": true,
+			"customFileTypes": {
+				"text.html.basic": [
+					"svelte"
+				]
+			},
+			"disabledPackages": [
+				"git-diff",
+				"language-css",
+				"markdown-preview",
+				"linter"
+			],
+			"packagesWithKeymapsDisabled": [
+				"atom-minify"
+			],
+			"telemetryConsent": "no"
+		},
+		"docblockr": {
+			"extra_tags": [
+				"@author Hugo Sum",
+				"@lastUpdateDate {{date}}"
+			]
+		},
+		"exception-reporting": {
+			"userId": "370b85d8-9633-4dbd-821d-ef00a59c9761"
+		},
+		"ftp-remote-edit": {
+			"config": "626666b0452c8e767f70ee38e083e2ba1c4bbd069422b4c4b50554dfe06c258f1fcefcfa608ad0eb7a311c6c622169870af82cc2c81e4ddaa851b4f22eb4bad61afdb3cd88844b14c9ee4e7e96d4a2e25c3eb788a09bdce42553fabd8033b1e7e020d783125922b953fb36b90882347e730534514009f80483a6f9161358c378f2202463c2e9b3bc4430b466f93f777e64301a903f875f85009f31bccc6a32c26c3c489943b96a606a96eb86e310933b8b514444ef28071fbc5c048586220461ae255bfc41dcdf865e0cd54d56078356209a157c4d97265bad0c1a2930875c0f522f6f05366097809a9a8f3166a535fdae1e3bfc4dee74e4fe0da2b25747a56a7d437887608050f50d6e08fff470603bdbd12741ec37929c4284762afd",
+			"password": "7b287db6442cd6202865"
+		},
+		"git-diff": {
+			"showIconsInEditorGutter": true
+		},
+		"git-diff-plus": {
+			"showIconsInEditorGutter": true
+		},
+		"linter": {
+			"lintOnChange": false
+		},
+		"linter-eslint": {
+			"autofix": {
+				"fixOnSave": true
+			}
+		},
+		"linter-ui-default": {
+			"panelHeight": 382
+		},
+		"minimap": {
+			"absoluteMode": true,
+			"charHeight": 12,
+			"charWidth": 6
+		},
+		"standard-formatter": {
+			"honorPackageConfig": false
+		},
+		"tree-view": {
+			"hideVcsIgnoredFiles": true
+		},
+		"welcome": {
+			"showOnStartup": false
+		},
+		"sync-settings": {
+			"useOtherLocation": true
+		},
+		"sync-settings-git-location": {
+			"gitUrl": "https://github.com/winston0410/atom-setting.git",
+			"commitMessagePrompt": true
+		}
+	},
+	".blade.html.php.text": {
+		"editor": {
+			"commentEnd": " --}}",
+			"commentStart": "{{-- "
+		}
+	}
+}

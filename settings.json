@@ -94,18 +94,20 @@
 		"standard-formatter": {
 			"honorPackageConfig": false
 		},
+		"sync-settings": {
+			"checkForUpdatedBackup": false,
+			"hiddenSettings": {},
+			"useOtherLocation": true
+		},
+		"sync-settings-git-location": {
+			"commitMessagePrompt": true,
+			"gitUrl": "https://github.com/winston0410/atom-setting.git"
+		},
 		"tree-view": {
 			"hideVcsIgnoredFiles": true
 		},
 		"welcome": {
 			"showOnStartup": false
-		},
-		"sync-settings": {
-			"useOtherLocation": true
-		},
-		"sync-settings-git-location": {
-			"gitUrl": "https://github.com/winston0410/atom-setting.git",
-			"commitMessagePrompt": true
 		}
 	},
 	".blade.html.php.text": {

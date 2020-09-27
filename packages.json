@@ -33,9 +33,6 @@
 		"version": "0.46.3",
 		"theme": "ui"
 	},
-	"atom-live-server": {
-		"version": "2.3.0"
-	},
 	"atom-tailwindcss": {
 		"version": "0.9.0"
 	},
@@ -149,11 +146,11 @@
 	"highlight-selected": {
 		"version": "0.17.0"
 	},
+	"ide-haskell": {
+		"version": "2.4.1"
+	},
 	"ide-purescript": {
 		"version": "0.25.0"
-	},
-	"ide-svelte": {
-		"version": "0.1.1"
 	},
 	"image-view": {
 		"version": "0.64.0"
@@ -200,6 +197,9 @@
 	"language-go": {
 		"version": "0.47.2"
 	},
+	"language-haskell": {
+		"version": "1.20.0"
+	},
 	"language-html": {
 		"version": "0.53.1"
 	},
@@ -220,9 +220,6 @@
 	},
 	"language-less": {
 		"version": "0.34.3"
-	},
-	"language-liquid": {
-		"version": "0.7.0"
 	},
 	"language-make": {
 		"version": "0.23.0"
@@ -287,9 +284,6 @@
 	"language-toml": {
 		"version": "0.20.0"
 	},
-	"language-tpl": {
-		"version": "0.3.0"
-	},
 	"language-typescript": {
 		"version": "0.6.3"
 	},
@@ -317,9 +311,6 @@
 	"linter-eslint": {
 		"version": "8.5.5"
 	},
-	"linter-stylelint": {
-		"version": "4.5.1"
-	},
 	"linter-ui-default": {
 		"version": "1.8.1"
 	},
@@ -330,7 +321,7 @@
 		"version": "0.160.2"
 	},
 	"markdown-preview-plus": {
-		"version": "4.6.1"
+		"version": "4.6.0"
 	},
 	"metrics": {
 		"version": "1.8.1"
@@ -360,14 +351,8 @@
 	"package-generator": {
 		"version": "1.3.0"
 	},
-	"php-server": {
-		"version": "0.8.0"
-	},
 	"pigments": {
 		"version": "0.40.2"
-	},
-	"px-to-rem": {
-		"version": "1.0.0"
 	},
 	"settings-view": {
 		"version": "0.261.4"
@@ -383,17 +368,11 @@
 		"version": "1.3.0",
 		"theme": "syntax"
 	},
-	"source-preview-postcss": {
-		"version": "0.1.4"
-	},
 	"source-preview-pug": {
 		"version": "0.2.0"
 	},
 	"spell-check": {
 		"version": "0.76.1"
-	},
-	"split-diff": {
-		"version": "1.6.1"
 	},
 	"status-bar": {
 		"version": "1.8.17"

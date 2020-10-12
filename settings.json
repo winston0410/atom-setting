@@ -23,9 +23,7 @@
 			"xml": {
 				"beautify_on_save": true
 			},
-			"yaml": {
-				"beautify_on_save": true
-			}
+			"yaml": {}
 		},
 		"atom-minify": {
 			"autoHideNotifications": "Info, Success, Error",
@@ -49,7 +47,8 @@
 				"git-diff",
 				"language-css",
 				"markdown-preview",
-				"linter"
+				"linter",
+				"language-babel"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify"
@@ -61,6 +60,9 @@
 				"@author Hugo Sum",
 				"@lastUpdateDate {{date}}"
 			]
+		},
+		"editor": {
+			"fontSize": 15
 		},
 		"exception-reporting": {
 			"userId": "370b85d8-9633-4dbd-821d-ef00a59c9761"
@@ -84,7 +86,8 @@
 			}
 		},
 		"linter-ui-default": {
-			"panelHeight": 382
+			"panelHeight": 300,
+			"showPanel": true
 		},
 		"minimap": {
 			"absoluteMode": true,
@@ -103,9 +106,7 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {
-			"hideVcsIgnoredFiles": true
-		},
+		"tree-view": {},
 		"welcome": {
 			"showOnStartup": false
 		}

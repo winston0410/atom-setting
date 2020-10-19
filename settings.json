@@ -39,6 +39,10 @@
 		"core": {
 			"closeDeletedFileTabs": true,
 			"customFileTypes": {
+				"source.js": [
+					"cjs",
+					"mjs"
+				],
 				"text.html.basic": [
 					"svelte"
 				]
@@ -62,7 +66,7 @@
 			]
 		},
 		"editor": {
-			"fontSize": 15
+			"fontSize": 16
 		},
 		"exception-reporting": {
 			"userId": "370b85d8-9633-4dbd-821d-ef00a59c9761"
@@ -86,13 +90,17 @@
 			}
 		},
 		"linter-ui-default": {
-			"panelHeight": 300,
-			"showPanel": true
+			"panelHeight": 300
 		},
 		"minimap": {
 			"absoluteMode": true,
 			"charHeight": 12,
 			"charWidth": 6
+		},
+		"platformio-ide-terminal": {
+			"style": {
+				"theme": "linux"
+			}
 		},
 		"standard-formatter": {
 			"honorPackageConfig": false
@@ -106,7 +114,9 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {},
+		"tree-view": {
+			"hideVcsIgnoredFiles": true
+		},
 		"welcome": {
 			"showOnStartup": false
 		}

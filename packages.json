@@ -101,6 +101,9 @@
 	"docblockr": {
 		"version": "0.13.7"
 	},
+	"docker": {
+		"version": "0.8.0"
+	},
 	"encoding-selector": {
 		"version": "0.23.9"
 	},
@@ -114,7 +117,7 @@
 		"version": "0.219.5"
 	},
 	"ftp-remote-edit": {
-		"version": "0.18.0"
+		"version": "0.18.1"
 	},
 	"fuzzy-finder": {
 		"version": "1.14.2"
@@ -190,6 +193,12 @@
 	},
 	"language-css": {
 		"version": "0.44.4"
+	},
+	"language-docker": {
+		"version": "1.1.8"
+	},
+	"language-dotenv": {
+		"version": "1.2.0"
 	},
 	"language-gfm": {
 		"version": "0.90.8"
@@ -317,6 +326,9 @@
 	"linter": {
 		"version": "3.1.1"
 	},
+	"linter-docker": {
+		"version": "0.3.2"
+	},
 	"linter-eslint": {
 		"version": "8.5.5"
 	},
@@ -324,7 +336,7 @@
 		"version": "4.5.1"
 	},
 	"linter-ui-default": {
-		"version": "2.1.2"
+		"version": "2.1.4"
 	},
 	"markdown-pdf": {
 		"version": "2.3.3"
@@ -333,7 +345,7 @@
 		"version": "0.160.2"
 	},
 	"markdown-preview-plus": {
-		"version": "4.8.2"
+		"version": "4.8.3"
 	},
 	"metrics": {
 		"version": "1.8.1"
@@ -414,7 +426,7 @@
 		"version": "0.118.4"
 	},
 	"sync-settings": {
-		"version": "5.0.5"
+		"version": "5.0.6"
 	},
 	"sync-settings-git-location": {
 		"version": "1.1.5"

@@ -1,14 +1,15 @@
 {
 	"*": {
 		"atom-beautify": {
-			"css": {
-				"beautify_on_save": true
-			},
+			"css": {},
 			"jade": {
 				"beautify_on_save": true
 			},
 			"js": {},
 			"json": {},
+			"jsx": {
+				"default_beautifier": "JS Beautify"
+			},
 			"markdown": {
 				"beautify_on_save": true,
 				"default_beautifier": "Tidy Markdown"
@@ -66,7 +67,8 @@
 			]
 		},
 		"editor": {
-			"fontSize": 16
+			"fontSize": 20,
+			"softWrap": true
 		},
 		"exception-reporting": {
 			"userId": "370b85d8-9633-4dbd-821d-ef00a59c9761"
@@ -87,7 +89,8 @@
 		"linter-eslint": {
 			"autofix": {
 				"fixOnSave": true
-			}
+			},
+			"global": {}
 		},
 		"linter-ui-default": {
 			"panelHeight": 300
@@ -102,6 +105,9 @@
 				"theme": "linux"
 			}
 		},
+		"react": {
+			"enabledForAllJavascriptFiles": true
+		},
 		"standard-formatter": {
 			"honorPackageConfig": false
 		},
@@ -114,9 +120,7 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {
-			"hideVcsIgnoredFiles": true
-		},
+		"tree-view": {},
 		"welcome": {
 			"showOnStartup": false
 		}
@@ -125,6 +129,16 @@
 		"editor": {
 			"commentEnd": " --}}",
 			"commentStart": "{{-- "
+		}
+	},
+	".coffee.jsx.source": {
+		"editor": {
+			"softWrap": true
+		}
+	},
+	".js.jsx.source": {
+		"editor": {
+			"softWrap": true
 		}
 	}
 }

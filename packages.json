@@ -114,13 +114,13 @@
 		"version": "4.0.5"
 	},
 	"find-and-replace": {
-		"version": "0.219.5"
+		"version": "0.219.6"
 	},
 	"ftp-remote-edit": {
 		"version": "0.18.1"
 	},
 	"fuzzy-finder": {
-		"version": "1.14.2"
+		"version": "1.14.3"
 	},
 	"git-blame": {
 		"version": "1.8.0"
@@ -135,7 +135,7 @@
 		"version": "0.4.1"
 	},
 	"github": {
-		"version": "0.34.2"
+		"version": "0.35.0"
 	},
 	"go-to-line": {
 		"version": "0.33.0"
@@ -222,7 +222,7 @@
 		"version": "0.1.0"
 	},
 	"language-java": {
-		"version": "0.31.5"
+		"version": "0.32.0"
 	},
 	"language-javascript": {
 		"version": "0.134.1"
@@ -275,6 +275,9 @@
 	"language-ruby-on-rails": {
 		"version": "0.25.3"
 	},
+	"language-rust": {
+		"version": "0.4.12"
+	},
 	"language-rust-bundled": {
 		"version": "0.1.0"
 	},
@@ -304,6 +307,9 @@
 	},
 	"language-typescript": {
 		"version": "0.6.3"
+	},
+	"language-vba": {
+		"version": "0.2.5"
 	},
 	"language-vue": {
 		"version": "0.26.0"
@@ -336,7 +342,7 @@
 		"version": "4.5.1"
 	},
 	"linter-ui-default": {
-		"version": "2.1.4"
+		"version": "2.2.1"
 	},
 	"markdown-pdf": {
 		"version": "2.3.3"
@@ -345,7 +351,7 @@
 		"version": "0.160.2"
 	},
 	"markdown-preview-plus": {
-		"version": "4.8.3"
+		"version": "4.8.4"
 	},
 	"metrics": {
 		"version": "1.8.1"
@@ -381,14 +387,17 @@
 	"pigments": {
 		"version": "0.40.6"
 	},
+	"pinned-tabs": {
+		"version": "2.3.1"
+	},
 	"platformio-ide-terminal": {
-		"version": "2.10.0"
+		"version": "2.10.1"
 	},
 	"react": {
 		"version": "0.18.0"
 	},
 	"settings-view": {
-		"version": "0.261.5"
+		"version": "0.261.6"
 	},
 	"snippets": {
 		"version": "1.5.1"
@@ -426,10 +435,10 @@
 		"version": "0.118.4"
 	},
 	"sync-settings": {
-		"version": "5.0.6"
+		"version": "5.1.0"
 	},
 	"sync-settings-git-location": {
-		"version": "1.1.5"
+		"version": "1.1.8"
 	},
 	"tabs": {
 		"version": "0.110.0"
@@ -441,7 +450,7 @@
 		"version": "2.3.2"
 	},
 	"tree-view": {
-		"version": "0.228.0"
+		"version": "0.228.1"
 	},
 	"update-package-dependencies": {
 		"version": "0.13.1"

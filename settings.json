@@ -67,7 +67,7 @@
 			]
 		},
 		"editor": {
-			"fontSize": 20,
+			"fontSize": 25,
 			"softWrap": true
 		},
 		"exception-reporting": {
@@ -112,7 +112,7 @@
 			"honorPackageConfig": false
 		},
 		"sync-settings": {
-			"checkForUpdatedBackup": false,
+			"autoCheckForUpdatedBackup": "no",
 			"hiddenSettings": {},
 			"useOtherLocation": true
 		},
@@ -123,7 +123,8 @@
 		"tree-view": {},
 		"welcome": {
 			"showOnStartup": false
-		}
+		},
+		"zentabs": {}
 	},
 	".blade.html.php.text": {
 		"editor": {

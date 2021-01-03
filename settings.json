@@ -105,6 +105,18 @@
 				"theme": "linux"
 			}
 		},
+		"prettier-atom": {
+			"formatOnSaveOptions": {
+				"enabled": true,
+				"showInStatusBar": true,
+				"isDisabledIfNoConfigFile": true
+			},
+			"useEditorConfig": false,
+			"useEslint": true,
+			"prettierEslintOptions": {
+				"prettierLast": true
+			}
+		},
 		"react": {
 			"enabledForAllJavascriptFiles": true
 		},
@@ -132,12 +144,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

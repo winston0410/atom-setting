@@ -108,14 +108,14 @@
 		"prettier-atom": {
 			"formatOnSaveOptions": {
 				"enabled": true,
-				"showInStatusBar": true,
-				"isDisabledIfNoConfigFile": true
+				"isDisabledIfNoConfigFile": true,
+				"showInStatusBar": true
 			},
-			"useEditorConfig": false,
-			"useEslint": true,
 			"prettierEslintOptions": {
 				"prettierLast": true
-			}
+			},
+			"useEditorConfig": false,
+			"useEslint": true
 		},
 		"react": {
 			"enabledForAllJavascriptFiles": true

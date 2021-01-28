@@ -67,7 +67,7 @@
 			]
 		},
 		"editor": {
-			"fontSize": 25,
+			"fontSize": 26,
 			"softWrap": true
 		},
 		"exception-reporting": {
@@ -82,6 +82,9 @@
 		},
 		"git-diff-plus": {
 			"showIconsInEditorGutter": true
+		},
+		"goto-definition": {
+			"contextMenuDisplayAtFirst": false
 		},
 		"linter": {
 			"lintOnChange": false
@@ -132,7 +135,9 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {},
+		"tree-view": {
+			"hideVcsIgnoredFiles": true
+		},
 		"welcome": {
 			"showOnStartup": false
 		},
@@ -144,12 +149,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

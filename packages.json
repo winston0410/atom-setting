@@ -19,6 +19,9 @@
 	"atom-file-icons": {
 		"version": "0.7.1"
 	},
+	"atom-ide-debugger-node": {
+		"version": "0.7.3"
+	},
 	"atom-ide-ui": {
 		"version": "0.13.0"
 	},
@@ -30,11 +33,11 @@
 		"version": "0.46.3",
 		"theme": "ui"
 	},
-	"atom-live-server": {
-		"version": "2.3.0"
-	},
 	"atom-tailwindcss": {
 		"version": "0.9.0"
+	},
+	"atom-typescript": {
+		"version": "14.1.2"
 	},
 	"autoclose-html": {
 		"version": "0.23.0"
@@ -114,7 +117,7 @@
 		"version": "4.0.5"
 	},
 	"find-and-replace": {
-		"version": "0.219.6"
+		"version": "0.219.7"
 	},
 	"ftp-remote-edit": {
 		"version": "0.18.1"
@@ -135,7 +138,7 @@
 		"version": "0.4.1"
 	},
 	"github": {
-		"version": "0.35.0"
+		"version": "0.36.2"
 	},
 	"go-to-line": {
 		"version": "0.33.0"
@@ -154,6 +157,9 @@
 	},
 	"ide-purescript": {
 		"version": "0.25.0"
+	},
+	"ide-rust": {
+		"version": "0.22.0-beta.3"
 	},
 	"ide-svelte": {
 		"version": "0.1.1"
@@ -330,7 +336,7 @@
 		"version": "0.31.6"
 	},
 	"linter": {
-		"version": "3.2.3"
+		"version": "3.3.0"
 	},
 	"linter-docker": {
 		"version": "0.3.2"
@@ -420,7 +426,7 @@
 		"version": "0.2.0"
 	},
 	"spell-check": {
-		"version": "0.76.1"
+		"version": "0.76.2"
 	},
 	"split-diff": {
 		"version": "1.6.1"
@@ -438,10 +444,10 @@
 		"version": "0.118.4"
 	},
 	"sync-settings": {
-		"version": "5.2.0"
+		"version": "5.2.5"
 	},
 	"sync-settings-git-location": {
-		"version": "1.1.8"
+		"version": "1.1.10"
 	},
 	"tabs": {
 		"version": "0.110.0"
@@ -453,7 +459,7 @@
 		"version": "2.3.2"
 	},
 	"tree-view": {
-		"version": "0.228.1"
+		"version": "0.228.2"
 	},
 	"update-package-dependencies": {
 		"version": "0.13.1"

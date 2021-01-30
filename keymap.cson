@@ -1,3 +1,6 @@
 'atom-workspace':
   'cmd-i': 'cursor-history:prev-within-editor'
   'cmd-m': 'cursor-history:next-within-editor'
+'body':
+  'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab': 'pane:show-previous-item'

@@ -147,12 +147,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

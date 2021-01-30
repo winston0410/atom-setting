@@ -56,7 +56,8 @@
 				"language-babel"
 			],
 			"packagesWithKeymapsDisabled": [
-				"atom-minify"
+				"atom-minify",
+				"platformio-ide-terminal"
 			],
 			"telemetryConsent": "no"
 		},

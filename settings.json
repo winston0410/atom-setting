@@ -135,9 +135,7 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {
-			"hideVcsIgnoredFiles": true
-		},
+		"tree-view": {},
 		"welcome": {
 			"showOnStartup": false
 		},
@@ -149,12 +147,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

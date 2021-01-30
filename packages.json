@@ -393,9 +393,6 @@
 	"pigments": {
 		"version": "0.40.6"
 	},
-	"pinned-tabs": {
-		"version": "2.3.1"
-	},
 	"platformio-ide-terminal": {
 		"version": "2.10.1"
 	},
@@ -460,6 +457,9 @@
 	},
 	"update-package-dependencies": {
 		"version": "0.13.1"
+	},
+	"vim-mode-plus": {
+		"version": "1.36.4"
 	},
 	"welcome": {
 		"version": "0.36.9"

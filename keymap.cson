@@ -1,14 +1,16 @@
 'atom-workspace':
   'cmd-i': 'cursor-history:prev-within-editor'
   'cmd-m': 'cursor-history:next-within-editor'
+
 'body':
   'ctrl-tab': 'pane:show-next-item'
   'ctrl-shift-tab': 'pane:show-previous-item'
-  'shift-cmd-t': 'platformio-ide-terminal:new'
-  'shift-cmd-x': 'platformio-ide-terminal:close'
+  'cmd-shift-t': 'platformio-ide-terminal:new'
+  'cmd-shift-x': 'platformio-ide-terminal:close'
+  'cmd-n': 'advanced-open-file:toggle'
 
 '.platform-darwin atom-text-editor':
-  'shift-cmd-g': 'platformio-ide-terminal:toggle'
+  'cmd-shift-g': 'platformio-ide-terminal:toggle'
 
 '.platform-darwin .find-and-replace .replace-container atom-text-editor':
   'cmd-enter': 'find-and-replace:replace-all'

@@ -55,7 +55,9 @@
 				"linter",
 				"language-babel",
 				"language-todo",
-				"welcome"
+				"welcome",
+				"go-to-line",
+				"metrics"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify",
@@ -63,7 +65,8 @@
 				"svg-preview",
 				"split-diff",
 				"lebab",
-				"docblockr"
+				"docblockr",
+				"ftp-remote-edit"
 			],
 			"telemetryConsent": "no"
 		},
@@ -154,12 +157,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

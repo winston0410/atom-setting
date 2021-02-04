@@ -8,9 +8,6 @@
 	"archive-view": {
 		"version": "0.65.2"
 	},
-	"atom-beautify": {
-		"version": "0.33.4"
-	},
 	"atom-dark-syntax": {
 		"version": "0.29.1",
 		"theme": "syntax"
@@ -83,14 +80,14 @@
 	"busy-signal": {
 		"version": "2.0.1"
 	},
+	"color-picker": {
+		"version": "2.3.0"
+	},
 	"command-palette": {
 		"version": "0.43.5"
 	},
 	"cssnano": {
 		"version": "1.1.0"
-	},
-	"cursor-history": {
-		"version": "0.14.0"
 	},
 	"dalek": {
 		"version": "0.2.2"
@@ -106,6 +103,9 @@
 	},
 	"encoding-selector": {
 		"version": "0.23.9"
+	},
+	"ex-mode": {
+		"version": "0.18.0"
 	},
 	"exception-reporting": {
 		"version": "0.43.1"

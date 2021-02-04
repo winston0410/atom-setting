@@ -57,11 +57,12 @@
 				"language-todo",
 				"welcome",
 				"go-to-line",
-				"metrics"
+				"metrics",
+				"ex-mode",
+				"vim-mode-plus"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify",
-				"platformio-ide-terminal",
 				"svg-preview",
 				"split-diff",
 				"lebab",
@@ -120,14 +121,12 @@
 		},
 		"prettier-atom": {
 			"formatOnSaveOptions": {
-				"enabled": true,
 				"isDisabledIfNoConfigFile": true,
 				"showInStatusBar": true
 			},
 			"prettierEslintOptions": {
 				"prettierLast": true
 			},
-			"useEditorConfig": false,
 			"useEslint": true
 		},
 		"react": {
@@ -157,12 +156,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

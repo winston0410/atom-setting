@@ -1,16 +1,20 @@
-'atom-workspace':
-  'cmd-i': 'cursor-history:prev-within-editor'
-  'cmd-m': 'cursor-history:next-within-editor'
+'atom-text-editor.vim-mode-plus:not(.normal-mode)':
+  'cmd-i': 'vim-mode-plus:activate-normal-mode'
+
+'body .native-keybinding':
+  'cmd-v': 'native!'
 
 'body':
-  'ctrl-tab': 'pane:show-next-item'
+  'alt-tab': 'pane:show-next-item'
   'ctrl-shift-tab': 'pane:show-previous-item'
-  'cmd-shift-t': 'platformio-ide-terminal:new'
+  'cmd-shift-t': '``platformio-ide-terminal``:new'
   'cmd-shift-x': 'platformio-ide-terminal:close'
   'cmd-n': 'advanced-open-file:toggle'
+  'cmd-shift-s': 'window:save-all'
+  'cmd-v': 'native!'
 
 '.platform-darwin atom-text-editor':
-  'cmd-shift-g': 'platformio-ide-terminal:toggle'
+  'cmd-shift-g': 'platformio-ide-terminal:next'
   'cmd-shift-k': 'hey-pane:toggle-focus-of-active-pane'
 
 '.platform-darwin':

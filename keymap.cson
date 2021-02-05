@@ -7,15 +7,21 @@
 'body':
   'alt-tab': 'pane:show-next-item'
   'ctrl-shift-tab': 'pane:show-previous-item'
-  'cmd-shift-t': '``platformio-ide-terminal``:new'
+  'cmd-shift-t': 'platformio-ide-terminal:new'
   'cmd-shift-x': 'platformio-ide-terminal:close'
   'cmd-n': 'advanced-open-file:toggle'
   'cmd-shift-s': 'window:save-all'
   'cmd-v': 'native!'
 
 '.platform-darwin atom-text-editor':
-  'cmd-shift-g': 'platformio-ide-terminal:next'
+  'cmd-shift-g': 'platformio-ide-terminal:toggle'
+  'cmd-shift-h': 'platformio-ide-terminal:next'
+  'cmd-shift-b': 'prettier:format'
   'cmd-shift-k': 'hey-pane:toggle-focus-of-active-pane'
+
+'.platform-darwin .platformio-ide-terminal .terminal':
+  'cmd-c': 'platformio-ide-terminal:copy'
+  'cmd-v': 'platformio-ide-terminal:paste'
 
 '.platform-darwin':
   # focus pane

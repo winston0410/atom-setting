@@ -59,7 +59,9 @@
 				"go-to-line",
 				"metrics",
 				"ex-mode",
-				"vim-mode-plus"
+				"vim-mode-plus",
+				"fuzzy-finder",
+				"symbols-view"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify",
@@ -67,7 +69,10 @@
 				"split-diff",
 				"lebab",
 				"docblockr",
-				"ftp-remote-edit"
+				"ftp-remote-edit",
+				"platformio-ide-terminal",
+				"prettier-atom",
+				"fuzzy-finder"
 			],
 			"telemetryConsent": "no"
 		},
@@ -156,12 +161,12 @@
 			"commentStart": "{{-- "
 		}
 	},
-	".coffee.jsx.source": {
+	".js.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}
 	},
-	".js.jsx.source": {
+	".coffee.jsx.source": {
 		"editor": {
 			"softWrap": true
 		}

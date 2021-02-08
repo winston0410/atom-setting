@@ -29,16 +29,11 @@
   'cmd-k right':       'window:focus-pane-on-right'
   'cmd-k up':          'window:focus-pane-above'
   'cmd-k down':        'window:focus-pane-below'
-  # split pane
-  'cmd-k cmd-left':    'pane:split-left'
-  'cmd-k cmd-right':   'pane:split-right'
-  'cmd-k cmd-up':      'pane:split-up'
-  'cmd-k cmd-down':    'pane:split-down'
-  # move pane item
-  'cmd-k shift-left':  'window:move-active-item-to-pane-on-left'
-  'cmd-k shift-right': 'window:move-active-item-to-pane-on-right'
-  'cmd-k shift-up':    'window:move-active-item-to-pane-above'
-  'cmd-k shift-down':  'window:move-active-item-to-pane-below'
+  # split pane and copy
+  'cmd-k h':    'pane:split-left-and-move-active-item'
+  'cmd-k l':   'pane:split-right-and-move-active-item'
+  'cmd-k k':      'pane:split-up-and-move-active-item'
+  'cmd-k j':    'pane:split-down-and-move-active-item'
 
 '.platform-darwin .find-and-replace .replace-container atom-text-editor':
   'cmd-enter': 'find-and-replace:replace-all'

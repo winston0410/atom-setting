@@ -59,9 +59,7 @@
 				"go-to-line",
 				"metrics",
 				"ex-mode",
-				"vim-mode-plus",
-				"fuzzy-finder",
-				"symbols-view"
+				"vim-mode-plus"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify",
@@ -70,9 +68,7 @@
 				"lebab",
 				"docblockr",
 				"ftp-remote-edit",
-				"platformio-ide-terminal",
-				"prettier-atom",
-				"fuzzy-finder"
+				"platformio-ide-terminal"
 			],
 			"telemetryConsent": "no"
 		},

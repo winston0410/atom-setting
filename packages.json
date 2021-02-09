@@ -119,6 +119,9 @@
 	"find-and-replace": {
 		"version": "0.219.7"
 	},
+	"find-scroll-marker": {
+		"version": "0.1.3"
+	},
 	"ftp-remote-edit": {
 		"version": "0.18.1"
 	},
@@ -335,6 +338,9 @@
 	"link": {
 		"version": "0.31.6"
 	},
+	"lint-scroll-marker": {
+		"version": "0.3.0"
+	},
 	"linter": {
 		"version": "3.3.0"
 	},
@@ -404,6 +410,9 @@
 	},
 	"react": {
 		"version": "0.18.0"
+	},
+	"scroll-marker": {
+		"version": "0.3.5"
 	},
 	"settings-view": {
 		"version": "0.261.6"

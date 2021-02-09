@@ -14,6 +14,14 @@
   'cmd-v': 'native!'
 
 '.platform-darwin atom-text-editor':
+  'cmd-k cmd-u': 'unset!'
+  'cmd-k cmd-l': 'unset!'
+  'cmd-y': 'editor:move-to-previous-word-boundary'
+  'cmd-o': 'editor:move-to-next-word-boundary'
+  'cmd-h': 'core:move-left'
+  'cmd-l': 'core:move-right'
+  'cmd-j': 'core:move-down'
+  'cmd-k': 'core:move-up'
   'cmd-shift-g': 'platformio-ide-terminal:toggle'
   'cmd-shift-h': 'platformio-ide-terminal:next'
   'cmd-shift-b': 'prettier:format'

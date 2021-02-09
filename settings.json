@@ -58,8 +58,7 @@
 				"welcome",
 				"go-to-line",
 				"metrics",
-				"ex-mode",
-				"vim-mode-plus"
+				"ex-mode"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify",
@@ -68,7 +67,8 @@
 				"lebab",
 				"docblockr",
 				"ftp-remote-edit",
-				"platformio-ide-terminal"
+				"platformio-ide-terminal",
+				"highlight-selected"
 			],
 			"telemetryConsent": "no"
 		},
@@ -97,6 +97,10 @@
 		},
 		"goto-definition": {
 			"contextMenuDisplayAtFirst": false
+		},
+		"highlight-selected": {
+			"highlightBackground": true,
+			"showResultsOnScrollBar": true
 		},
 		"linter": {
 			"lintOnChange": false

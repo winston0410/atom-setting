@@ -109,10 +109,21 @@
 			"autofix": {
 				"fixOnSave": true
 			},
-			"global": {}
+			"global": {},
+			"scopes": [
+				"source.js",
+				"source.jsx",
+				"source.js.jsx",
+				"source.flow",
+				"source.babel",
+				"source.js-semantic",
+				"source.tsx",
+				"source.ts"
+			]
 		},
 		"linter-ui-default": {
-			"panelHeight": 300
+			"panelHeight": 300,
+			"showPanel": true
 		},
 		"minimap": {
 			"absoluteMode": true,

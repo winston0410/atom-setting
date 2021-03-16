@@ -12,6 +12,10 @@
   'cmd-n': 'advanced-open-file:toggle'
   'cmd-shift-s': 'window:save-all'
   'cmd-v': 'native!'
+  'right': 'unset!'
+  'left': 'unset!'
+  'up': 'unset!'
+  'down': 'unset!'
 
 '.platform-darwin atom-text-editor':
   'cmd-k cmd-u': 'unset!'

@@ -122,8 +122,7 @@
 			]
 		},
 		"linter-ui-default": {
-			"panelHeight": 300,
-			"showPanel": true
+			"panelHeight": 300
 		},
 		"minimap": {
 			"absoluteMode": true,

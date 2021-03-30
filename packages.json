@@ -37,7 +37,7 @@
 		"version": "0.9.0"
 	},
 	"atom-typescript": {
-		"version": "14.1.2"
+		"version": "14.2.1"
 	},
 	"autoclose-html": {
 		"version": "0.23.0"
@@ -114,7 +114,7 @@
 		"version": "0.43.1"
 	},
 	"file-icons": {
-		"version": "2.1.46"
+		"version": "2.1.47"
 	},
 	"filesize": {
 		"version": "4.0.5"
@@ -156,7 +156,7 @@
 		"version": "0.17.0"
 	},
 	"ide-haskell": {
-		"version": "2.4.1"
+		"version": "2.6.0"
 	},
 	"ide-purescript": {
 		"version": "0.25.0"
@@ -225,7 +225,7 @@
 		"version": "0.47.2"
 	},
 	"language-haskell": {
-		"version": "1.21.0"
+		"version": "1.22.0"
 	},
 	"language-html": {
 		"version": "0.53.1"
@@ -348,13 +348,13 @@
 		"version": "0.3.0"
 	},
 	"linter": {
-		"version": "3.3.0"
+		"version": "3.3.1"
 	},
 	"linter-docker": {
 		"version": "0.3.2"
 	},
 	"linter-eslint": {
-		"version": "8.5.5"
+		"version": "8.6.5"
 	},
 	"linter-rust": {
 		"version": "1.0.1"
@@ -363,7 +363,7 @@
 		"version": "4.5.1"
 	},
 	"linter-ui-default": {
-		"version": "3.1.1"
+		"version": "3.3.1"
 	},
 	"markdown-pdf": {
 		"version": "2.3.3"
@@ -372,7 +372,7 @@
 		"version": "0.160.2"
 	},
 	"markdown-preview-plus": {
-		"version": "4.9.0"
+		"version": "4.9.1"
 	},
 	"metrics": {
 		"version": "1.8.1"
@@ -456,10 +456,10 @@
 		"version": "0.118.4"
 	},
 	"sync-settings": {
-		"version": "5.2.6"
+		"version": "5.2.9"
 	},
 	"sync-settings-git-location": {
-		"version": "1.1.10"
+		"version": "1.1.11"
 	},
 	"tabs": {
 		"version": "0.110.0"

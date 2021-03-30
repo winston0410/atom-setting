@@ -159,7 +159,9 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {},
+		"tree-view": {
+			"hideVcsIgnoredFiles": true
+		},
 		"welcome": {
 			"showOnStartup": false
 		},

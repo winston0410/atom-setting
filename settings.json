@@ -1,5 +1,8 @@
 {
 	"*": {
+		"advanced-open-file": {
+			"createDirectories": true
+		},
 		"atom-beautify": {
 			"css": {},
 			"jade": {
@@ -49,7 +52,6 @@
 				]
 			},
 			"disabledPackages": [
-				"git-diff",
 				"language-css",
 				"markdown-preview",
 				"linter",
@@ -58,7 +60,8 @@
 				"welcome",
 				"go-to-line",
 				"metrics",
-				"ex-mode"
+				"ex-mode",
+				"git-diff"
 			],
 			"packagesWithKeymapsDisabled": [
 				"atom-minify",
@@ -68,7 +71,8 @@
 				"docblockr",
 				"ftp-remote-edit",
 				"platformio-ide-terminal",
-				"highlight-selected"
+				"highlight-selected",
+				"git-diff-plus"
 			],
 			"telemetryConsent": "no"
 		},
@@ -159,9 +163,7 @@
 			"commitMessagePrompt": true,
 			"gitUrl": "https://github.com/winston0410/atom-setting.git"
 		},
-		"tree-view": {
-			"hideVcsIgnoredFiles": true
-		},
+		"tree-view": {},
 		"welcome": {
 			"showOnStartup": false
 		},

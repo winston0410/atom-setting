@@ -104,6 +104,9 @@
 	"docblockr": {
 		"version": "0.13.7"
 	},
+	"docker": {
+		"version": "0.8.0"
+	},
 	"encoding-selector": {
 		"version": "0.23.9"
 	},
@@ -136,6 +139,9 @@
 	},
 	"git-diff-plus": {
 		"version": "0.4.2"
+	},
+	"git-log": {
+		"version": "0.4.1"
 	},
 	"git-time-machine": {
 		"version": "2.1.0"
